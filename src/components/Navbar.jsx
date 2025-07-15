@@ -7,12 +7,12 @@ import { motion } from "framer-motion";
 
 
 export default function () {
-    return <div className="flex justify-center">
+    return <div className="fixed top-0 flex justify-center w-full bg-black shadow-md">
         <div className="flex justify-center gap-20 p-4 mt-6 h-15 w-max">
 
 
             <div className="group relative flex flex-col items-center">
-                <a href="">
+                <a href="#">
                     <CiHome className="text-white text-3xl hover:scale-200 transition-transform duration-300" />
                 </a>
                 <span className="absolute -top-6 text-sm bg-black text-white px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -21,7 +21,7 @@ export default function () {
             </div>
 
             <div className="group relative flex flex-col items-center">
-                <a href="">
+                <a href="#projects">
                     <FaProjectDiagram className="text-white text-3xl hover:scale-200 transition-transform duration-300" />
                 </a>
                 <span className="absolute -top-6 text-sm bg-black text-white px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -30,7 +30,7 @@ export default function () {
             </div>
 
             <div className="group relative flex flex-col items-center">
-                <a href="">
+                <a href="#contact">
                     <GrContactInfo className="text-white text-3xl hover:scale-200 transition-transform duration-300" />
                 </a>
                 <span className="absolute -top-6 text-sm bg-black text-white px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -52,7 +52,9 @@ export default function () {
             </div>
 
             <div className="group relative flex flex-col items-center">
-                <a href="https://github.com/Bhuwan9414">
+                <a href="https://github.com/Bhuwan9414"
+                   target="_blank"
+                >
                     <FaGithub className="text-white text-3xl hover:scale-200 transition-transform duration-300" />
                 </a>
                 <span className="absolute -top-6 text-sm bg-black text-white px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity duration-300">

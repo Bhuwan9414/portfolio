@@ -17,7 +17,7 @@ export default function () {
                 viewport={{ once: true }}
             >
                 <h1 className="text-white font-medium text-7xl">I'm Bhuwan.</h1>
-                <p className="text-white mt-5 text-md">"A passionate Full-Stack Developer and DevOps Enthusiast who loves building modern, scalable, and user-friendly web applications. Always eager to learn and explore new technologies to create impactful solutions."</p>
+                <p className="text-white mt-5 text-lg">"As a Full-Stack Developer focused on the MERN stack and DevOps practices, I specialize in building performant APIs and interactive frontends. I enjoy working across the development lifecycle — from designing backend logic to exploring cloud-based deployment and automation."</p>
 
                 <div className="text-3xl text-white flex justify-center mt-15 gap-5 ">
 
@@ -41,8 +41,10 @@ export default function () {
 
                 </div>
 
-                <div className="text-4xl text-white flex justify-center mt-30">
-                    <IoIosArrowDown />
+                <div className="text-4xl text-white flex justify-center mt-30 hover:scale-200 transition-transform duration-200">
+                    <a href="#projects">
+                        <IoIosArrowDown />
+                    </a>
                 </div>
             </motion.div>
         </div>
